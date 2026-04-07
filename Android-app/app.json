@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Smart Health Box",
+    "slug": "smart-health-box",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/hlogo.png",
+    "splash": {
+      "image": "./assets/hlogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#03080f"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.smarthealthbox.app",
+      "infoPlist": {
+        "NSLocalNetworkUsageDescription": "الاتصال بـ Smart Health Box عبر الشبكة المحلية"
+      }
+    },
+    "android": {
+      "package": "com.smarthealthbox.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/hlogo.png",
+        "backgroundColor": "#03080f"
+      },
+      "permissions": [
+        "INTERNET",
+        "ACCESS_WIFI_STATE",
+        "ACCESS_NETWORK_STATE"
+      ]
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1baa7afb-3479-46ef-8e12-cb37dff11db3"
+      }
+    },
+    "owner": "moha334"
+  }
+}
