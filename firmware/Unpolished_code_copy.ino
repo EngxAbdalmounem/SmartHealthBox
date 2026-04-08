@@ -15,8 +15,8 @@
 // ================================================================
 //  ⚠️  غيّر هذين السطرين فقط
 // ================================================================
-const char* WIFI_SSID     = "mohamed omer";
-const char* WIFI_PASSWORD = "mohamed@2025";
+const char* WIFI_SSID     = "SSID";
+const char* WIFI_PASSWORD = "PASSWORD";
 // ================================================================
 
 WiFiServer server(80);
